@@ -2,7 +2,6 @@ import pygame
 from enum import Enum
 
 
-# 定义一些公共属性
 WIDTH = 500
 HEADER = 90
 HEIGHT = WIDTH + HEADER
