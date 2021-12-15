@@ -57,7 +57,7 @@
 
 ### 用Backtrack生成的迷宫
 
-![image](C:/Users/Administrator/Downloads/images/12e03951fbb85f877853df3abedd94e2.gif)
+![image](images/12e03951fbb85f877853df3abedd94e2.gif)
 
 ### 解迷宫
 
@@ -69,7 +69,7 @@
 
 ### 用RandomPrim生成的迷宫
 
-![image](C:/Users/Administrator/Downloads/images/3b8142050435f2c218c526b4259307de.gif)
+![image](images/3b8142050435f2c218c526b4259307de.gif)
 
 ### 解迷宫
 
@@ -81,7 +81,7 @@
 
 ### 用Division生成的迷宫
 
-![image](C:/Users/Administrator/Downloads/images/2e83a868720998bc872f79ed8e944bcf.gif)
+![image](images/2e83a868720998bc872f79ed8e944bcf.gif)
 
 ### 解迷宫
 
@@ -93,7 +93,7 @@
 
 ### 用UnionFind生成的迷宫
 
-![image](C:/Users/Administrator/Downloads/images/d299c1e1d710a3ccbeedfa9b01b7798f.gif)
+![image](images/d299c1e1d710a3ccbeedfa9b01b7798f.gif)
 
 ### 解迷宫
 
