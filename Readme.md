@@ -41,15 +41,72 @@
 |![image](images/daaa358f5dd772fa74c8535c2649404e.gif)|![image](images/186b4261073a6e2eeb3df966cc079156.gif)|
 
 ## 程序说明
-功能比较简单，没有太多可说的。
+**当前`迷宫1.5`程序已支持4种生成算法和4种寻路算法。**
 
-第一步选择生成迷宫的算法：Backtrack 或 RandomPrim ，然后点击 生成迷宫 即可随机创造迷宫；
+1. 选择生成迷宫的算法，然后点击`生成迷宫`即可随机创造迷宫；
 
-第二步选择探索迷宫的算法：Recursive 或 A\* ，然后点击 探索迷宫 ，就会在左上角入口到右下角出口，自动探索出一条通路；
+2. 选择探索迷宫的算法 ，然后点击`探索迷宫` ，就会在左上角入口到右下角出口，自动探索出一条通路；
 
-![image](images/561adb106d71008b4ec26d61e545b12b.png)
+为了多一点变化，一开始会用随机数字决定生成迷宫的尺寸，可大可小。
+
+以下按不同方式逐一生成迷宫，每个迷宫都用4种算法分别探索，并记录从入口开始到找到出口结束的过程。
+
+偶尔我会把它当做屏保，看着计算机自动生成迷宫、自动探索迷宫的图像发呆、放空。当你敲下几段代码，再加入一些算法和随机数，程序运行起来仿佛就有了自己的意志，好像街头艺人在吹起笛子之后，脚边一段普通的绳子像响尾蛇一样昂起了头。
+
+对于编程初学者来说，这是一种略有些神奇的体验。
+
+### 用Backtrack生成的迷宫
+
+![image](C:/Users/Administrator/Downloads/images/12e03951fbb85f877853df3abedd94e2.gif)
+
+### 解迷宫
+
+| **Recursive**                                         | **DFS**                                               |
+| ----------------------------------------------------- | ----------------------------------------------------- |
+| ![image](images/9e9a3d16e49d844a384e11cb7028ebca.gif) | ![image](images/14d7f01f3f6bf8849023e8325a64868f.gif) |
+| **A\***                                               | **BFS**                                               |
+| ![image](images/50bdc80d239b10be413859962c870172.gif) | ![image](images/7cc126c86d9e226e5ca13ee5d6567ff8.gif) |
+
+### 用RandomPrim生成的迷宫
+
+![image](C:/Users/Administrator/Downloads/images/3b8142050435f2c218c526b4259307de.gif)
+
+### 解迷宫
+
+| **Recursive**                                         | **DFS**                                               |
+| ----------------------------------------------------- | ----------------------------------------------------- |
+| ![image](images/254157bf41880cf48ed41322717acc9b.gif) | ![image](images/27584e399b4089f0e1b67de0815f9edf.gif) |
+| **A\***                                               | **BFS**                                               |
+| ![image](images/7609b0369a070a37b81f664c26051378.gif) | ![image](images/f8302ff23b33927ee106d44d6f4fae7e.gif) |
+
+### 用Division生成的迷宫
+
+![image](C:/Users/Administrator/Downloads/images/2e83a868720998bc872f79ed8e944bcf.gif)
+
+### 解迷宫
+
+| **Recursive**                                         | **DFS**                                               |
+| ----------------------------------------------------- | ----------------------------------------------------- |
+| ![image](images/98f54208de46a5fd6c4c57e8fd4f4b67.gif) | ![image](images/41b60614f22dcd22f8b422a81820491f.gif) |
+| **A\***                                               | **BFS**                                               |
+| ![image](images/4914e75e16ae613e7227655ebe4b0334.gif) | ![image](images/69ea33b3a26922dd90280372695ec138.gif) |
+
+### 用UnionFind生成的迷宫
+
+![image](C:/Users/Administrator/Downloads/images/d299c1e1d710a3ccbeedfa9b01b7798f.gif)
+
+### 解迷宫
+
+| **Recursive**                                         | **DFS**                                               |
+| ----------------------------------------------------- | ----------------------------------------------------- |
+| ![image](images/47afd47f4bde84f16edbe8cb3f47ee65.gif) | ![image](images/d70f5a30877cef6e632f0a62f13681eb.gif) |
+| **A\***                                               | **BFS**                                               |
+| ![image](images/f8e9379dd1641e0cea0bd06748f52226.gif) | ![image](images/4435825e8ecafee17aee8cc9255d29b8.gif) |
+
+
 
 ## 主要参考资料
+
 [Python 四大迷宫生成算法实现(1): 递归回溯算法](https://blog.csdn.net/marble_xu/article/details/88201319)
 
 [Python 四大迷宫生成算法实现(2): 随机Prim算法](https://blog.csdn.net/marble_xu/article/details/88285926)
